@@ -1,0 +1,8 @@
+name: GatewayStaff
+version: 1.0
+main: com.codermason.gatewaystaff.GatewayStaff
+author: codermason
+description: A plugin to display Gateway's staff members
+commands:
+  staff:
+     description: Show the staff menu
