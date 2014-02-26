@@ -72,7 +72,7 @@ public class StaffManager {
     }
 
     public void showMenu(Player player) {
-        Inventory menu = Bukkit.createInventory(player, Utils.getInventorySize(getStaffList().size()), "Staff Menu");
+        Inventory menu = Bukkit.createInventory(player, Utils.getInventorySize(getStaffList().size()), "OP-Raid Staff");
         for(Staff staff : getStaffList()) {
             String name = staff.getName();
             String lore = staff.getRank();
