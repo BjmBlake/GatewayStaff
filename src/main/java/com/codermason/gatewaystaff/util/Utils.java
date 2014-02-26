@@ -11,7 +11,7 @@ import java.util.List;
 public class Utils {
 
     public static int getInventorySize(int number) {
-        return (number - (number % 9) + 9);
+        return (number - (number % 18) + 18);
     }
 
     public static ItemStack setNameAndLore(ItemStack item, String name, List<String> lore) {
